@@ -18,6 +18,9 @@
 			"include": "#definedSets"
 		},
 		{
+			"include": "#numbers"
+		},
+		{
 			"include": "#identifiers"
 		},
 		{
@@ -32,7 +35,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.b",
-					"match": "\\b(IF|THEN|ELSIF|ELSE|END|CHOICE|OR|SELECT|WHEN|CASE|OF|EITHER|VAR|IN|ANY|WHERE|LET|BE|WHILE|DO|VARIANT|INVARIANT|<--|skip)\\b"
+					"match": "\\b(MACHINE|SETS|VARIABLES|INITIALISATION|OPERATIONS|IF|THEN|ELSIF|ELSE|END|CHOICE|OR|SELECT|WHEN|CASE|OF|EITHER|VAR|IN|ANY|WHERE|LET|BE|WHILE|DO|VARIANT|INVARIANT|<--|skip)\\b"
 				},
 				{
 					"name": "keyword.control.less.b",
@@ -52,7 +55,7 @@
 			"patterns": [
 				{
 					"name": "support.function.b",
-					"match": "\\b\\[[a-zA-Z_0-9]{2,}\\]\\b"
+					"match": "\\b\\[[a-zA-Z_][a-zA-Z_0-9]*\\]\\b"
 				}
 			]
 		},
@@ -72,11 +75,19 @@
 				}
 			]
 		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.b",
+					"match": "\\b[0-9]+\\b"
+				}
+			]
+		},
 		"identifiers": {
 			"patterns": [
 				{
 					"name": "support.variable.b",
-					"match": "\\b[a-zA-Z_0-9]{2,}\\b"
+					"match": "\\b[a-zA-Z_][a-zA-Z_0-9]*\\b"
 				}
 			]
 		},
