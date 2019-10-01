@@ -103,9 +103,18 @@
 			]
 		},
 		"comments": {
-			"name": "comment.block.b",
-			"begin": "/\\*",
-			"end": "\\*/"
+			"patterns": [
+				{
+					"name": "comment.block.b",
+					"begin": "/\\*",
+					"end": "\\*/"
+				},
+				{
+					"name": "comment.line.number-sign.b",
+					"begin": "#",
+					"end": "\\n"
+				}
+			]
 		}
 	},
 	"scopeName": "source.b"
