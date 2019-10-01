@@ -1,30 +1,40 @@
 {
-    "name": "b-language-support",
-    "displayName": "B Language Support",
-    "description": "Language Support for B (B-Method)",
-    "version": "1.0.0",
-    "engines": {
-        "vscode": "^1.38.0"
+	"name": "b-language-support",
+	"displayName": "B Language Support",
+	"description": "Language Support for B (B-Method)",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.38.0"
 	},
 	"publisher": "kcza",
-    "categories": [
-        "Programming Languages"
+	"categories": [
+		"Programming Languages"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/TheSignPainter98/"
+		"url": "https://github.com/TheSignPainter98/b-language-support"
 	},
-    "contributes": {
-        "languages": [{
-            "id": "b",
-            "aliases": ["B", "b"],
-            "extensions": [".mch"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "b",
-            "scopeName": "source.b",
-            "path": "./syntaxes/b.tmLanguage.json"
-        }]
-    }
+	"contributes": {
+		"languages": [
+			{
+				"id": "b",
+				"aliases": [
+					"B",
+					"b"
+				],
+				"extensions": [
+					".mch"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "b",
+				"scopeName": "source.b",
+				"path": "./syntaxes/b.tmLanguage.json"
+			}
+		]
+	},
+	"icon": "images/b-language-support.png"
 }
