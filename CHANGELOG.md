@@ -2,8 +2,14 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.2.0
 
-## [Unreleased]
+- Added line comments (`#`)
 
-- Initial release
+## 1.1.0
+
+- Added the `PRE` keyword to the syntax highlighting
+
+## 1.0.0
+
+- Initial Release
