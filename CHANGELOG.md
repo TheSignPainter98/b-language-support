@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.3.1
+
+- Updated screenshot in the README
+
 ## 1.3.0
 
 - Changed syntax highlighting class of build-in functions
