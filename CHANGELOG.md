@@ -2,6 +2,12 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.4.0
+
+- Fixed comment symbol
+- Added `INT`, `bool`, `TRUE` and `FALSE`
+- Fixed `NAT`/`NAT1` highlighting
+
 ## 1.3.1
 
 - Updated screenshot in the README
