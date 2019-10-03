@@ -18,6 +18,9 @@
 			"include": "#definedSets"
 		},
 		{
+			"include": "#booleans"
+		},
+		{
 			"include": "#numbers"
 		},
 		{
@@ -71,7 +74,15 @@
 			"patterns": [
 				{
 					"name": "constant.language.b",
-					"match": "(NAT|NAT1)"
+					"match": "(NAT1|NAT|INT)"
+				}
+			]
+		},
+		"booleans": {
+			"patterns": [
+				{
+					"name": "constant.language.b",
+					"match": "(TRUE|FALSE)"
 				}
 			]
 		},
