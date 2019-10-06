@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.5.0
+
+- Added `CONSTANTS` and `PROPERTIES` keywords
+
 ## 1.4.2
 
 - Enforce spaces
