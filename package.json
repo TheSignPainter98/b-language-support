@@ -34,6 +34,12 @@
 				"scopeName": "source.b",
 				"path": "./syntaxes/b.tmLanguage.json"
 			}
+		],
+		"snippets": [
+			{
+				"language": "b",
+				"path": "./snippets/b.json"
+			}
 		]
 	},
 	"icon": "images/b-language-support.png"
