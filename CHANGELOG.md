@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.4.2
+
+- Enforce spaces
+
 ## 1.4.1
 
 - Fixed line-comment highlighting
