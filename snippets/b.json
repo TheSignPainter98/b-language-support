@@ -1,0 +1,15 @@
+{
+    "precondition": {
+        "prefix": [
+            "PRE"
+        ],
+        "body": [
+            "PRE",
+            "\t$1",
+            "THEN",
+            "\t$2",
+            "END"
+        ],
+        "description": "Establish a precondition"
+    }
+}
