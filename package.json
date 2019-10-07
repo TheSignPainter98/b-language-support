@@ -39,6 +39,10 @@
 			{
 				"language": "b",
 				"path": "./snippets/b-blocks.json"
+			},
+			{
+				"language": "b",
+				"path": "./snippets/b-sections.json"
 			}
 		]
 	},
