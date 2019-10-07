@@ -1,0 +1,120 @@
+{
+	"any-statement": {
+		"prefix": [
+			"any"
+		],
+		"body": [
+			"ANY $1 WHERE $2 THEN",
+			"\t$3",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"block": {
+		"prefix": [
+			"begin"
+		],
+		"body": [
+			"BEGIN",
+			"\t$1",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"case-statement": {
+		"prefix": [
+			"case"
+		],
+		"body": [
+			"CASE $1 OF EITHER",
+			"\t$2",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"choice-statement": {
+		"prefix": [
+			"choice"
+		],
+		"body": [
+			"CHOICE",
+			"\t$1",
+			"OR",
+			"\t$2",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"if-else": {
+		"prefix": [
+			"if"
+		],
+		"body": [
+			"IF $1 THEN",
+			"\t$2",
+			"ELSE",
+			"\t$3",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"let-statement": {
+		"prefix": [
+			"let"
+		],
+		"body": [
+			"LET $1 BE $1 = $2 IN",
+			"\t$3",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"precondition-block": {
+		"prefix": [
+			"pre"
+		],
+		"body": [
+			"PRE",
+			"\t$1",
+			"THEN",
+			"\t$2",
+			"END"
+		],
+		"description": "Establish a precondition"
+	},
+	"select-statement": {
+		"prefix": [
+			"select"
+		],
+		"body": [
+			"SELECT $1 THEN",
+			"\t$2",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"var-statement": {
+		"prefix": [
+			"var"
+		],
+		"body": [
+			"VAR $1 IN",
+			"\t$2",
+			"END"
+		],
+		"description": "If-else block"
+	},
+	"while-loop": {
+		"prefix": [
+			"while"
+		],
+		"body": [
+			"WHILE $1 DO",
+			"\tVARIANT $2",
+			"\tINVARIANT $3",
+			"\t$4",
+			"END"
+		],
+		"description": "A while-loop"
+	}
+}

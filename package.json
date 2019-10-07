@@ -38,7 +38,7 @@
 		"snippets": [
 			{
 				"language": "b",
-				"path": "./snippets/b.json"
+				"path": "./snippets/b-blocks.json"
 			}
 		]
 	},
