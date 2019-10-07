@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#numbers"
+		},
+		{
 			"include": "#operators"
 		},
 		{
@@ -19,9 +22,6 @@
 		},
 		{
 			"include": "#booleans"
-		},
-		{
-			"include": "#numbers"
 		},
 		{
 			"include": "#identifiers"
