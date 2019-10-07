@@ -2,6 +2,12 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.6.0
+
+- Fixed single digits
+- Added `BEGIN` keyword
+- Added code snippets
+
 ## 1.5.0
 
 - Added `CONSTANTS` and `PROPERTIES` keywords
