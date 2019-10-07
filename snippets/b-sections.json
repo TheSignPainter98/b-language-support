@@ -5,7 +5,8 @@
 		],
 		"body": [
 			"MACHINE",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "Name of the machine"
 	},
@@ -13,7 +14,8 @@
 		"prefix": "sets",
 		"body": [
 			"SETS",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "The sets defined in the machine"
 	},
@@ -21,7 +23,8 @@
 		"prefix": "constants",
 		"body": [
 			"CONSTANTS",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "The constants defined in the machine"
 	},
@@ -29,7 +32,8 @@
 		"prefix": "properties",
 		"body": [
 			"PROPERTIES",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "Properties of the constants"
 	},
@@ -37,7 +41,8 @@
 		"prefix": "variables",
 		"body": [
 			"VARIABLES",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "Variables defined in the machine"
 	},
@@ -45,7 +50,8 @@
 		"prefix": "invariant",
 		"body": [
 			"INVARIANT",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "Properties of the variables"
 	},
@@ -53,7 +59,8 @@
 		"prefix": "initialisation",
 		"body": [
 			"INITIALISATION",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "Initial assignment to variables"
 	},
@@ -61,7 +68,8 @@
 		"prefix": "operations",
 		"body": [
 			"OPERATIONS",
-			"\t$1"
+			"\t$1",
+			""
 		],
 		"description": "The operations the machine may perform"
 	}

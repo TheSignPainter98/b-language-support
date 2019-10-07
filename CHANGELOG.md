@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.6.1
+
+- Added new-lines
+
 ## 1.6.0
 
 - Fixed single digits
