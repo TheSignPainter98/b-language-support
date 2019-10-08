@@ -6,7 +6,8 @@
 		"body": [
 			"ANY $1 WHERE $2 THEN",
 			"\t$3",
-			"END"
+			"END",
+			""
 		],
 		"description": "If-else block"
 	},
@@ -17,7 +18,8 @@
 		"body": [
 			"BEGIN",
 			"\t$1",
-			"END"
+			"END",
+			""
 		],
 		"description": "If-else block"
 	},
@@ -26,9 +28,13 @@
 			"case"
 		],
 		"body": [
-			"CASE $1 OF EITHER",
-			"\t$2",
-			"END"
+			"CASE $1 OF",
+			"\tEITHER $2 THEN",
+			"\t\t$3",
+			"\t$4",
+			"\tEND",
+			"END",
+			""
 		],
 		"description": "If-else block"
 	},
@@ -41,7 +47,8 @@
 			"\t$1",
 			"OR",
 			"\t$2",
-			"END"
+			"END",
+			""
 		],
 		"description": "If-else block"
 	},
@@ -54,7 +61,8 @@
 			"\t$2",
 			"ELSE",
 			"\t$3",
-			"END"
+			"END",
+			""
 		],
 		"description": "If-else block"
 	},
@@ -65,9 +73,19 @@
 		"body": [
 			"LET $1 BE $1 = $2 IN",
 			"\t$3",
-			"END"
+			"END",
+			""
 		],
 		"description": "If-else block"
+	},
+	"or-case-block": {
+		"prefix": "or",
+		"body": [
+			"OR $1 THEN",
+			"\t$2",
+			""
+		],
+		"description": "Option for a case statement"
 	},
 	"precondition-block": {
 		"prefix": [
@@ -78,7 +96,8 @@
 			"\t$1",
 			"THEN",
 			"\t$2",
-			"END"
+			"END",
+			""
 		],
 		"description": "Establish a precondition"
 	},
@@ -89,7 +108,8 @@
 		"body": [
 			"SELECT $1 THEN",
 			"\t$2",
-			"END"
+			"END",
+			""
 		],
 		"description": "If-else block"
 	},
@@ -100,7 +120,8 @@
 		"body": [
 			"VAR $1 IN",
 			"\t$2",
-			"END"
+			"END",
+			""
 		],
 		"description": "If-else block"
 	},
@@ -113,7 +134,8 @@
 			"\tVARIANT $2",
 			"\tINVARIANT $3",
 			"\t$4",
-			"END"
+			"END",
+			""
 		],
 		"description": "A while-loop"
 	}
