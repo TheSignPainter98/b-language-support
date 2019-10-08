@@ -2,6 +2,13 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.7.0
+
+- Added `CONSTRAINTS` section
+- Improved `CASE` snippet
+- Added `OR` snippet
+- Added newlines after most snippets
+
 ## 1.6.3
 
 - Changed log
