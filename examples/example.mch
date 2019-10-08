@@ -4,7 +4,10 @@
 */
 
 MACHINE
-	someTestMachine
+	someTestMachine(asdf)
+
+CONSTRAINTS
+	asdf : NAT1
 
 SETS
 	someSet

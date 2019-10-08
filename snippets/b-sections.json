@@ -10,6 +10,15 @@
 		],
 		"description": "Name of the machine"
 	},
+	"constraints-section": {
+		"prefix": "constraints",
+		"body": [
+			"CONSTRAINTS",
+			"\t$1",
+			""
+		],
+		"description": "Invariants regarding parameters"
+	},
 	"sets-section": {
 		"prefix": "sets",
 		"body": [
