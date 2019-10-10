@@ -19,6 +19,15 @@
 		],
 		"description": "Invariants regarding parameters"
 	},
+	"definitions-section": {
+		"prefix": "definitions",
+		"body": [
+			"DEFINITIONS",
+			"\t$1",
+			""
+		],
+		"description": "Definitions for the model checker"
+	},
 	"sets-section": {
 		"prefix": "sets",
 		"body": [
