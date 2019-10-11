@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+# 1.8.1
+
+- Added `END` keyword to `MACHINE` snippet
+
 ## 1.8.0
 
 - Added `DEFINITIONS` section
