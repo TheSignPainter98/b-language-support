@@ -6,6 +6,7 @@
 		"body": [
 			"MACHINE",
 			"\t$1",
+			"END",
 			""
 		],
 		"description": "Name of the machine"
