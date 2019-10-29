@@ -85,7 +85,7 @@
 			"patterns": [
 				{
 					"name": "constant.language.b",
-					"match": "\\b(TRUE|FALSE)\\b"
+					"match": "\\b(TRUE|FALSE|MAXINT|MININT)\\b"
 				}
 			]
 		},

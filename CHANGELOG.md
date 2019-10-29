@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.10.0
+
+- Added `MAXINT` and `MININT`
+
 ## 1.9.0
 
 - Colourise invalid identifiers
