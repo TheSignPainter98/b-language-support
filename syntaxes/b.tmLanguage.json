@@ -69,7 +69,7 @@
 			"patterns": [
 				{
 					"name": "support.function.b",
-					"match": "\\b(POW|POW1|FIN|FIN1|card|union|inter|UNION|INTER|min|max|SIGMA|PI|dom|ran|id|iterate|closure|prj1|prj2|seq|seq1|iseq|perm|size|rev|first|last|tail|front|conc|bool)\\b"
+					"match": "\\b(POW|POW1|FIN|FIN1|card|union|inter|UNION|INTER|min|max|SIGMA|PI|dom|ran|id|iterate|closure|prj1|prj2|seq|seq1|iseq|perm|size|rev|first|last|tail|front|conc|bool|struct|rec)\\b"
 				}
 			]
 		},
