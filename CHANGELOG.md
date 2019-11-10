@@ -6,6 +6,7 @@ All notable changes to the "b-language-support" extension will be documented in 
 
 - Added `ASSERTIONS` keyword and snippets
 - Auto-close multi-line comments
+- Improved colour distribution
 
 ## 1.11.0
 

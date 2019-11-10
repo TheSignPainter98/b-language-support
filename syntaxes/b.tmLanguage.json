@@ -53,7 +53,11 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.b",
-					"match": "\\b(&|or|=>|<=>|not|!|#|=|/=|\\||\\/|/\\\\|-|\\|->|\\*|.|:|/:|<:|/<:|<<:|/<<:|\\+|/|mod|\\.\\.|>|<|>=|<=|<->|;|<\\||<<\\||\\|>|\\|>>|~|<\\+|\\+>|><|\\|\\||\\+->|-->|>\\+>|>->|\\+->>|>->>|%|\\^|->|<-|/\\|\\\\|\\\\\\|/|==>|\\[\\]|@|circ)\\b"
+					"match": "\\b(&|=>|<=>|!|#|=|/=|\\||\\/|/\\\\|-|\\|->|\\*|.|:|/:|<:|/<:|<<:|/<<:|\\+|/|\\.\\.|>|<|>=|<=|<->|;|<\\||<<\\||\\|>|\\|>>|~|<\\+|\\+>|><|\\|\\||\\+->|-->|>\\+>|>->|\\+->>|>->>|%|\\^|->|<-|/\\|\\\\|\\\\\\|/|==>|\\[\\]|@)\\b"
+				},
+				{
+					"name": "entity.name.function",
+					"match": "\\b(or|not|mod|circ)\\b"
 				}
 			]
 		},
@@ -69,7 +73,11 @@
 			"patterns": [
 				{
 					"name": "support.function.b",
-					"match": "\\b(POW|POW1|FIN|FIN1|card|union|inter|UNION|INTER|min|max|SIGMA|PI|dom|ran|id|iterate|closure|prj1|prj2|seq|seq1|iseq|perm|size|rev|first|last|tail|front|conc|bool|struct|rec)\\b"
+					"match": "\\b(card|union|inter|UNION|INTER|min|max|SIGMA|PI|dom|ran|id|iterate|closure|prj1|prj2|size|rev|first|last|tail|front|conc)\\b"
+				},
+				{
+					"name": "constant.language.b",
+					"match": "\\b(POW|POW1|FIN|FIN1|seq|seq1|iseq|perm|bool|struct|rec)\\b"
 				}
 			]
 		},
@@ -132,7 +140,7 @@
 					"end": "\\*/"
 				},
 				{
-					"name": "comment.line.number-sign.b",
+					"name": "comment.line.double-slash",
 					"begin": "//",
 					"end": "\\n"
 				}
