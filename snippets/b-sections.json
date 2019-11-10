@@ -29,6 +29,15 @@
 		],
 		"description": "Definitions for the model checker"
 	},
+	"assertions-section": {
+		"prefix": "assertions",
+		"body": [
+			"ASSERTIONS",
+			"\t$1",
+			""
+		],
+		"description": "Assertions for the model checker"
+	},
 	"sets-section": {
 		"prefix": "sets",
 		"body": [
