@@ -25,6 +25,6 @@ OPERATIONS
 	oo <-- someFunc(ii) = PRE ii : someSet
 		THEN
 			varB := varB \/ {ii}
-			oo := card(varB)
+			|| oo := card(varB)
 		END
 END
