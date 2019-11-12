@@ -38,6 +38,51 @@
 		],
 		"description": "Assertions for the model checker"
 	},
+	"sees-section": {
+		"prefix": "sees",
+		"body": [
+			"SEES",
+			"\t$1",
+			""
+		],
+		"description": "Sees section for the model checker"
+	},
+	"includes-section": {
+		"prefix": "includes",
+		"body": [
+			"INCLUDES",
+			"\t$1",
+			""
+		],
+		"description": "Includes section for the model checker"
+	},
+	"uses-section": {
+		"prefix": "uses",
+		"body": [
+			"USES",
+			"\t$1",
+			""
+		],
+		"description": "Uses section for the model checker"
+	},
+	"extends-section": {
+		"prefix": "extends",
+		"body": [
+			"EXTENDS",
+			"\t$1",
+			""
+		],
+		"description": "Extends section for the model checker"
+	},
+	"promotes-section": {
+		"prefix": "promotes",
+		"body": [
+			"PROMOTES",
+			"\t$1",
+			""
+		],
+		"description": "Promotes section for the model checker"
+	},
 	"sets-section": {
 		"prefix": "sets",
 		"body": [
@@ -45,7 +90,7 @@
 			"\t$1",
 			""
 		],
-		"description": "The sets defined in the machine"
+		"description": "The sets definedescriptiond in the machine"
 	},
 	"constants-section": {
 		"prefix": "constants",

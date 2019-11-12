@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.13.0
+
+- Added `SEES`, `INCLUDES`, `EXTENDS`, `PROMOTES` and `USES` keyword and snippets
+
 ## 1.12.0
 
 - Added `ASSERTIONS` keyword and snippets
