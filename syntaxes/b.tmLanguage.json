@@ -108,8 +108,12 @@
 		"identifiers": {
 			"patterns": [
 				{
+					"name": "support.type.b",
+					"match": "\\b[A-Z][A-Z_0-9]*\\b"
+				},
+				{
 					"name": "support.variable.b",
-					"match": "\\b[a-zA-Z_][a-zA-Z_0-9]*\\b"
+					"match": "\\b[a-z_][a-zA-Z_0-9]*\\b"
 				}
 			]
 		},
