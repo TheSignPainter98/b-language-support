@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.15.0
+
+- Changed colour of operators
+
 ## 1.14.0
 
 - Consider non-keyword all-caps identifiers as sets and colourise
