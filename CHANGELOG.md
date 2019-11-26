@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.16.1
+
+- Added missing snippets
+
 ## 1.16.0
 
 - Added keywords for refinement and implementation

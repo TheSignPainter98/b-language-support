@@ -145,5 +145,32 @@
 			""
 		],
 		"description": "The operations the machine may perform"
+	},
+	"refinement-section": {
+		"prefix": "refinement",
+		"body": [
+			"REFINEMENT",
+			"\t$1",
+			""
+		],
+		"description": "Declares a refinement concrete machine"
+	},
+	"refines-section": {
+		"prefix": "refines",
+		"body": [
+			"REFINES",
+			"\t$1",
+			""
+		],
+		"description": "Declare what code refines"
+	},
+	"implementation-section": {
+		"prefix": "implementation",
+		"body": [
+			"IMPLEMENTATION",
+			"\t$1",
+			""
+		],
+		"description": "Declare an implementation concrete machine"
 	}
 }
