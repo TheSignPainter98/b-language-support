@@ -31,7 +31,9 @@
 					"b"
 				],
 				"extensions": [
-					".mch"
+					".imp",
+					".mch",
+					".ref"
 				],
 				"configuration": "./language-configuration.json"
 			}

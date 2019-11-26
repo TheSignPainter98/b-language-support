@@ -2,6 +2,11 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.16.0
+
+- Added keywords for refinement and implementation
+- Associate `.ref` and `.imp` files with `b`
+
 ## 1.15.0
 
 - Changed colour of operators
