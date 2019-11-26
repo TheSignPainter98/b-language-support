@@ -30,6 +30,9 @@
 			"include": "#identifiers"
 		},
 		{
+			"include": "#machineNames"
+		},
+		{
 			"include": "#strings"
 		},
 		{
@@ -114,6 +117,18 @@
 				{
 					"name": "support.variable.b",
 					"match": "\\b[a-z_][a-zA-Z_0-9]*\\b"
+				}
+			]
+		},
+		"machineNames": {
+			"patterns": [
+				{
+					"name": "markup.bold.impref.b",
+					"match": "\\b[A-Z][A-Za-z_0-9]*_[ir]\\b"
+				},
+				{
+					"name": "markup.italic.abstract.b",
+					"match": "\\b[A-Z][A-Za-z_0-9]*\\b"
 				}
 			]
 		},

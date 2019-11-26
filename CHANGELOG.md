@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.16.0
+
+- Stylise abstract, implementation and refinement machine names
+
 ## 1.15.1
 
 - Added missing snippets
