@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.17.0
+
+- Added `IMPORTS` and `CONCRETE_VARIABLE` keywords
+
 ## 1.16.0
 
 - Stylise abstract, implementation and refinement machine names
