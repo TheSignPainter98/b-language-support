@@ -123,11 +123,7 @@
 		"machineNames": {
 			"patterns": [
 				{
-					"name": "markup.bold.impref.b",
-					"match": "\\b[A-Z][A-Za-z_0-9]*_[ir]\\b"
-				},
-				{
-					"name": "markup.italic.abstract.b",
+					"name": "entity.name.section.b",
 					"match": "\\b[A-Z][A-Za-z_0-9]*\\b"
 				}
 			]

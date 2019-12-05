@@ -2,6 +2,10 @@
 
 All notable changes to the "b-language-support" extension will be documented in this file.
 
+## 1.17.1
+
+- Remove annoying `_r` and `_i` highlighting
+
 ## 1.17.0
 
 - Added `IMPORTS` and `CONCRETE_VARIABLE` keywords
